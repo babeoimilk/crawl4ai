@@ -35,7 +35,7 @@ torch_requirements = ["torch", "nltk", "spacy", "scikit-learn"]
 transformer_requirements = ["transformers", "tokenizers", "onnxruntime"]
 cosine_similarity_requirements = ["torch", "transformers", "nltk", "spacy"]
 sync_requirements = ["selenium"]
-
+≤
 def install_playwright():
     print("Installing Playwright browsers...")
     try:
@@ -82,7 +82,8 @@ setup(
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.7"
+        
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
